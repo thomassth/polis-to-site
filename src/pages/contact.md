@@ -6,11 +6,7 @@ layout: "../layouts/footerLayout.astro"
 
 Empowering civic engagement in Toronto
 
-### Socials
-
-[BlueSky](https://bsky.app/profile/publicsquareto.bsky.social)
-[Mastodon](https://mstdn.ca/@publicsquareto)
+[![BlueSky](../../public/Blue-Sky-logo.svg)](https://bsky.app/profile/publicsquareto.bsky.social)
+[![Mastodon](../../public/Mastodon-logo.svg)](https://mstdn.ca/@publicsquareto)
+[![GitHub](../../public/Github-logo.svg)](https://github.com/publicsquareto)
 [X](https://x.com/publicsquareto)
-[GitHub](https://github.com/publicsquareto)
-
-© 2025 Public Square TO. All rights reserved.

@@ -1,7 +1,3 @@
----
-layout: "./src/layouts/headerLayout.astro"
----
-
-# Public Square TO
+# [Public Square TO](https://publicsquareto.github.io/)
 
 Helping communities find common ground
