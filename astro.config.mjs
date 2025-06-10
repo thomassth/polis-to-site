@@ -1,5 +1,13 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import sectionize from '@hbsnow/rehype-sectionize';
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+    experimental: {
+        headingIdCompat: true,
+    },
+    markdown: {
+        rehypePlugins: [sectionize],
+    },
+});
