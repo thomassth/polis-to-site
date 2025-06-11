@@ -2,6 +2,8 @@
 import { defineConfig } from 'astro/config';
 import sectionize from '@hbsnow/rehype-sectionize';
 
+import mdx from '@astrojs/mdx';
+
 // https://astro.build/config
 export default defineConfig({
   experimental: {
@@ -12,4 +14,5 @@ export default defineConfig({
     rehypePlugins: [sectionize],
   },
 
+  integrations: [mdx()],
 });
